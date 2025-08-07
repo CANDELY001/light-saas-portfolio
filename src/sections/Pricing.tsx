@@ -76,6 +76,7 @@ export const Pricing = () => {
               features,
             }) => (
               <div
+                key={title}
                 className={twMerge(
                   "card",
                   inverse && "bg-black text-white",
